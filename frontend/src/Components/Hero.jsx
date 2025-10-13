@@ -21,7 +21,7 @@ const Hero = () => {
   />
 </div >
 <div className='flex justify-center top-[20%] text-6xl  absolute  items-center'>
-    <div className='strict font-bold'>GoSynk - Your Campus ,Connected</div>
+    <div className='strict font-bold z-50'>GoSynk - Your Campus ,Connected</div>
     <div>
         <PiPlugsConnectedBold className='inline m-4 text-[#bfff00]'/>
     </div>

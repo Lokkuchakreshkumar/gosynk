@@ -6,6 +6,7 @@ import car1 from '../assets/car1.png'
 import car2 from '../assets/car2.png'
 import eve1 from '../assets/eve1.png'
 import eve2 from '../assets/eve2.png'
+
 const Slide = () => {
     let [select, setSelected] = useState('comm')
     let handleClick = (e) => {
@@ -14,8 +15,8 @@ const Slide = () => {
     return (
         <div className='flex flex-col justify-center py-16 items-center'>
 
-            <div className='flex w-[80%] justify-between items-center'>
-                <div className='flex flex-col items-center justify-center'>
+            <div className='flex w-[100rem] justify-between items-center'>
+                <div className='flex flex-col  justify-center items-start'>
                     <div className='font-bold inter text-2xl'>GoSynk your campus life.</div>
                     <div className='text-white/30 inter text-lg'>Stay updated, connected, and ahead</div>
                 </div>
