@@ -33,17 +33,17 @@ const Hero = () => {
   />
 </div>
 
-<div className='flex  top-[20%] sm:text-6xl text-[1.4rem] justify-center w-full  absolute  items-center'>
+<div className='flex  top-[20%] sm:text-6xl text-[1.2rem]  justify-center w-full  absolute  items-center'>
     <div className='strict font-bold z-10'>GoSynk - Your Campus ,Connected</div>
    
-        <PiPlugsConnectedBold className='inline m-2 text-xl text-[#bfff00]'/>
+        <PiPlugsConnectedBold className='inline m-1 text-xl text-[#bfff00]'/>
    
 </div>
 <div className='absolute sm:top-[38%] top-[32%] sm:text-lg  text-sm text-center p-2 text-white/50 '>
     A unified hub for jobs, events ,community updates and more. Built for students and admins with a sleek, futuristic experience.
 </div>
 <div id='buttons' className='flex  transition-all duration-500 absolute sm:top-[60%] top-[50%]  gap-8 justify-center items-center'>
-  <div className='px-8 py-2 f hover:cursor-pointer bg-white hover:bg-white/95 text-xl rounded z-20 hover:rounded-lg transition-all duration-500 border text-black  border-black/30'>
+  <div className='px-8 py-2 f hover:cursor-pointer bg-white hover:bg-white/95 text-lg rounded z-20 hover:rounded-lg transition-all duration-500 border text-black  border-black/30'>
    Get Started
    </div>
      <div className='px-8 py-2 font-bold hover:cursor-pointer bg-black/10 text-lg backdrop-blur-sm transition-colors z-20 duration-500 rounded-xl hover:border hover:border-black border text-white hover:bg-[#bfff00] hover:text-black  border-white/50'>
