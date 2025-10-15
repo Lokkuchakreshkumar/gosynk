@@ -33,13 +33,19 @@ const Hero = () => {
   />
 </div>
 
-<div className='flex  top-[20%] sm:text-6xl text-[1.2rem]  justify-center w-full  absolute  items-center'>
-    <div className='strict font-bold z-10'>GoSynk - Your Campus ,Connected</div>
+<div className='sm:!flex !hidden flex  top-[20%] sm:text-6xl  text-[1.2rem]  justify-center w-full  absolute  items-center'>
+    <div className='strict font-bold  z-10'>GoSynk - Your Campus ,Connected</div>
    
-        <PiPlugsConnectedBold className='inline m-1 text-xl text-[#bfff00]'/>
+        <PiPlugsConnectedBold className='inline m-1 text-6xl text-[#bfff00]'/>
    
 </div>
-<div className='absolute sm:top-[38%] top-[32%] sm:text-lg  text-sm text-center p-2 text-white/50 '>
+<div className='sm:hidden flex-col top-[16%]  strict sm:text-6xl text-center text-[2rem]  pb-4 justify-center w-full  absolute  items-center'>
+    <div className='strict font-bold  text-[2.3rem] z-10'>GoSynk </div>
+   
+     <div className='strict font-bold z-10'>Campus ,Connected <PiPlugsConnectedBold className='inline m-1 text-xl text-[#bfff00]'/></div>   
+   
+</div>
+<div className='absolute sm:top-[38%] top-[34%] sm:text-lg  text-sm text-center p-2 text-white/50 '>
     A unified hub for jobs, events ,community updates and more. Built for students and admins with a sleek, futuristic experience.
 </div>
 <div id='buttons' className='flex  transition-all duration-500 absolute sm:top-[60%] top-[50%]  gap-8 justify-center items-center'>
@@ -50,7 +56,7 @@ const Hero = () => {
       Dashboard
    </div>
 </div>
-<div className='flex absolute sm:top-[85%] top-[70%] border border-black/80  p-2 rounded-full bg-black/10 backdrop-blur-xl z-25 justify-center items-center'>
+<div className='flex absolute sm:top-[85%] top-[72%] border border-black/80  p-2 rounded-full bg-black/10 backdrop-blur-xl z-25 justify-center items-center'>
     <div className='w-3 h-3 bg-green-500 rounded-full animate-pulse'></div>
     <div className='px-2 text-green-500 font-sans'>Exclusive for KL Univeristy</div>
 </div>
