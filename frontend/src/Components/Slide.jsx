@@ -13,7 +13,7 @@ const Slide = () => {
         setSelected(e.target.id);
     }
     return (
-        <div className='flex flex-col justify-center sm:py-16 items-center'>
+        <div className='flex flex-col justify-center py-16 items-center'>
 
             <div className='flex sm:!flex-row sm:w-[100rem] justify-between items-center  flex-col items-center'>
                 <div className='flex flex-col  justify-center items-start'>

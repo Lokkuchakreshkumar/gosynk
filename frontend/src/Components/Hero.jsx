@@ -10,18 +10,18 @@ const Hero = () => {
 
 
 
-{/* <div className='w-full rounded-b-full' style={{ height: '600px', position: 'relative',top: 0}}>
+<div className='w-full sm:!hidden rounded-b-full' style={{ height: '600px', position: 'relative',top: 0}}>
   <Galaxy
   density={0.5}
   mouseRepulsion={false} />
-</div> */}
+</div>
 
 
 
-<div style={{ width: '100%', height: '600px', position: 'relative' }}>
+<div className='sm:!flex !hidden' style={{ width: '100%', height: '600px', position: 'relative' }}>
   <LightRays
     raysOrigin="top-center"
-    raysColor="#000"
+    raysColor="cyan"
     raysSpeed={1.5}
     lightSpread={0.8}
     rayLength={1.2}
